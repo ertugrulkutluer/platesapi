@@ -52,21 +52,18 @@ All endpoints here
         ],
       "plates": [
           {
-              "id": "1",
               "product": "Red Plate",
-              "code": "R01",
+              "id": "R01",
               "price": 32.95
           },
           {
-              "id": "2",
               "product": "Green Plate",
-              "code": "G01",
+              "id": "G01",
               "price": 24.95
           },
           {
-              "id": "3",
               "product": "Blue Plate",
-              "code": "B01",
+              "id": "B01",
               "price": 7.95
           }
       ]
