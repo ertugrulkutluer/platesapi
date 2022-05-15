@@ -7,7 +7,7 @@ platesapi is a lightweight api with no 3rd party frameworks && redis cloud.
 
 ## Features
 
-* No thirdparty libraries.
+* No thirdparty frameworks.
 * Redis Cloud DB usage.
 
   
