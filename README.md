@@ -3,11 +3,12 @@
 
 ## Description
 
-platesapi is a lightweight api with no 3rd party frameworks.
+platesapi is a lightweight api with no 3rd party frameworks && redis cloud.
 
 ## Features
 
 * No thirdparty libraries.
+* Redis Cloud DB usage.
 
   
 ## Run on Local 
