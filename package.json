@@ -1,0 +1,13 @@
+{
+  "name": "plates",
+  "version": "1.0.0",
+  "description": "test case",
+  "main": "app.js",
+  "author": "ertugrulkutluer",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "uuid": "^8.3.2"
+  }
+}
