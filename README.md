@@ -111,12 +111,12 @@ All endpoints here
     - Response body: 
     ```json
     {
-    "account_id": "4y4nx",
-      "basket": {
-          "plates": [],
-          "total": 0,
-          "delivery_cost": 0
-      }
+      "account_id": "4y4nx",
+        "basket": {
+            "plates": [],
+            "total": 0,
+            "delivery_cost": 0
+        }
     }
     ```
     
@@ -124,17 +124,17 @@ All endpoints here
     
      ```json
        {
-        "plates": [
-            "Blue Plate",
-            "Blue Plate",
-            "Red Plate",
-            "Red Plate",
-            "Red Plate"
-        ],
-        "total": "98.28",
-        "delivery_cost": "0.00",
-        "discount": 16.475
-      }
+          "plates": [
+              "Blue Plate",
+              "Blue Plate",
+              "Red Plate",
+              "Red Plate",
+              "Red Plate"
+          ],
+          "total": "98.28",
+          "delivery_cost": "0.00",
+          "discount": 16.475
+        }
     ```
   
 ## TODO
