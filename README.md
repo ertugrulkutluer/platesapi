@@ -112,7 +112,8 @@ All endpoints here
         "basket": {
             "plates": [],
             "total": 0,
-            "delivery_cost": 0
+            "delivery_cost": 0,
+            "discount": 0
         }
     }
     ```
