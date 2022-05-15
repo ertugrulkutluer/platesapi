@@ -120,7 +120,7 @@ All endpoints here
     }
     ```
     
-- GET `/api/account/4y4nx/add/R01` adds a plate to specidifed account
+- GET `/api/account/4y4nx/add/R01` adds a plate to specified account
     
      ```json
      {
