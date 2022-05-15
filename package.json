@@ -5,6 +5,9 @@
   "main": "app.js",
   "author": "ertugrulkutluer",
   "license": "ISC",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "async-redis": "^2.0.0",
     "dotenv": "^16.0.1",
