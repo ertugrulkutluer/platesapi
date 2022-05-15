@@ -8,9 +8,6 @@ const _routes = require("./routes/plates");
 
 const connectDBRedis = () => {
   try {
-    // redis client
-    //   global.redisClient = redis.createClient(process.env.REDIS_URI);
-
     global.redisClient = redis.createClient(
       process.env.REDIS_PORT,
       process.env.REDIS_HOST

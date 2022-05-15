@@ -2,8 +2,7 @@ const Plates = require("../models/plates");
 const PlatesHelper = require("../helpers/plate")
 
 
-// @desc    Gets All Products
-// @route   GET /api/products
+
 module.exports.getPlates = async (req, res) => {
   try {
     const plates = await Plates.findAll();
@@ -14,8 +13,6 @@ module.exports.getPlates = async (req, res) => {
   }
 };
 
-// @desc    Gets Single Product
-// @route   GET /api/product/:id
 module.exports.getPlate = async (req, res, id) => {
   try {
     const plate = await Plates.findById(id);
@@ -32,8 +29,7 @@ module.exports.getPlate = async (req, res, id) => {
   }
 };
 
-// @desc    Create a Product
-// @route   GET /api/products
+
 module.exports.account = async (req, res) => {
   try {
     const account_id = Math.random().toString(36).slice(2, 7);
@@ -58,8 +54,7 @@ module.exports.account = async (req, res) => {
   }
 };
 
-// @desc    Create a Product
-// @route   GET /api/products
+
 module.exports.addToAccount = async (req, res, account_id, id) => {
   try {
     const plate = await Plates.findById(id);
