@@ -52,21 +52,18 @@ All endpoints here
         ],
       "plates": [
           {
-              "id": "1",
               "product": "Red Plate",
-              "code": "R01",
+              "id": "R01",
               "price": 32.95
           },
           {
-              "id": "2",
               "product": "Green Plate",
-              "code": "G01",
+              "id": "G01",
               "price": 24.95
           },
           {
-              "id": "3",
               "product": "Blue Plate",
-              "code": "B01",
+              "id": "B01",
               "price": 7.95
           }
       ]
@@ -111,30 +108,28 @@ All endpoints here
     - Response body: 
     ```json
     {
-    "account_id": "4y4nx",
-      "basket": {
-          "plates": [],
-          "total": 0,
-          "delivery_cost": 0
-      }
+      "account_id": "4y4nx",
+        "basket": {
+            "plates": [],
+            "total": 0,
+            "delivery_cost": 0,
+            "discount": 0
+        }
     }
     ```
     
-- GET `/api/account/4y4nx/add/R01` adds a plate to specidifed account
+- GET `/api/account/4y4nx/add/R01` adds a plate to specified account
     
      ```json
-       {
+     {
         "plates": [
             "Blue Plate",
-            "Blue Plate",
-            "Red Plate",
-            "Red Plate",
-            "Red Plate"
+            "Blue Plate"
         ],
-        "total": "98.28",
-        "delivery_cost": "0.00",
-        "discount": 16.475
-      }
+        "total": "20.85",
+        "delivery_cost": "4.95",
+        "discount": 0
+    }
     ```
   
 ## TODO
