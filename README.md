@@ -140,6 +140,6 @@ All endpoints here
 
 - [x] Readme File
 - [x] ApiDoc
-- [ ] Tests
+- [x] Tests
 - [ ] Docker Support
 - [ ] Deploy (Heroku, aws)
