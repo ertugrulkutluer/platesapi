@@ -22,7 +22,11 @@ git clone https://github.com/ertugrulkutluer/platesapi
 ```
 npm install
 ```
-### Step 3: run platesapi
+### Step 3: run tests
+```
+npm test
+```
+### Step 4: run platesapi
 ```
 npm start
 ```
