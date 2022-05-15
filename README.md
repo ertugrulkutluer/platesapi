@@ -123,18 +123,15 @@ All endpoints here
 - GET `/api/account/4y4nx/add/R01` adds a plate to specidifed account
     
      ```json
-       {
-          "plates": [
-              "Blue Plate",
-              "Blue Plate",
-              "Red Plate",
-              "Red Plate",
-              "Red Plate"
-          ],
-          "total": "98.28",
-          "delivery_cost": "0.00",
-          "discount": 16.475
-        }
+     {
+        "plates": [
+            "Blue Plate",
+            "Blue Plate"
+        ],
+        "total": "20.85",
+        "delivery_cost": "4.95",
+        "discount": 0
+    }
     ```
   
 ## TODO
