@@ -35,7 +35,7 @@ npm start
 > plates@1.0.0 start /Users/ertugrul/Desktop/plates
 > node app.js
 
-Server started on port: 5000
+Server started on port: 8080
 
 ```
 
