@@ -15,5 +15,8 @@
     "chai-http": "^4.3.0",
     "dotenv": "^16.0.1",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
   }
 }
